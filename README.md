@@ -1,9 +1,9 @@
 # Portainer Deployment Action
 
-[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-black.svg)](https://sonarcloud.io/summary/new_code?id=mathieu-keller_action-stack-deploy-to-portainer)
-[![Build](https://github.com/mathieu-keller/action-stack-deploy-to-portainer/actions/workflows/build.yaml/badge.svg)](https://github.com/mathieu-keller/action-stack-deploy-to-portainer/actions/workflows/build.yaml)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=mathieu-keller_action-stack-deploy-to-portainer&metric=coverage)](https://sonarcloud.io/summary/new_code?id=mathieu-keller_action-stack-deploy-to-portainer)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=mathieu-keller_action-stack-deploy-to-portainer&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=mathieu-keller_action-stack-deploy-to-portainer)
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-black.svg)](https://sonarcloud.io/summary/new_code?id=Mathieu-Keller-Lab_action-stack-deploy-to-portainer)
+[![Build](https://github.com/Mathieu-Keller-Lab/action-stack-deploy-to-portainer/actions/workflows/build.yaml/badge.svg)](https://github.com/Mathieu-Keller-Lab/action-stack-deploy-to-portainer/actions/workflows/build.yaml)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Mathieu-Keller-Lab_action-stack-deploy-to-portainer&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Mathieu-Keller-Lab_action-stack-deploy-to-portainer)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Mathieu-Keller-Lab_action-stack-deploy-to-portainer&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=Mathieu-Keller-Lab_action-stack-deploy-to-portainer)
 
 ## Overview
 
@@ -38,7 +38,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Deploy to Portainer
-        uses: mathieu-keller/action-deploy-to-portainer@1.0.0
+        uses: Mathieu-Keller-Lab/action-deploy-to-portainer@1.0.0
         with:
           portainerHost: ${{ secrets.PORTAINER_HOST }}
           portainerApiKey: ${{ secrets.PORTAINER_API_KEY }}
