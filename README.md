@@ -1,10 +1,4 @@
 # Portainer Deployment Action
-
-[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-black.svg)](https://sonarcloud.io/summary/new_code?id=Mathieu-Keller-Lab_action-stack-deploy-to-portainer)
-[![Build](https://github.com/Mathieu-Keller-Lab/action-stack-deploy-to-portainer/actions/workflows/build.yaml/badge.svg)](https://github.com/Mathieu-Keller-Lab/action-stack-deploy-to-portainer/actions/workflows/build.yaml)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Mathieu-Keller-Lab_action-stack-deploy-to-portainer&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Mathieu-Keller-Lab_action-stack-deploy-to-portainer)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Mathieu-Keller-Lab_action-stack-deploy-to-portainer&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=Mathieu-Keller-Lab_action-stack-deploy-to-portainer)
-
 ## Overview
 
 “Portainer Deployment Action” is a GitHub Action that automates the deployment of Docker Compose files to Portainer. It ensures consistent, repeatable deployments and reduces the risk of human error. It’s particularly beneficial for maintaining higher environments where manual deployments can be cumbersome. Enjoy seamless deployments with this action! 😊
