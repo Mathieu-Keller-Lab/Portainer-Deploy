@@ -9,10 +9,7 @@
   ],
   "assigneesFromCodeOwners": true,
   "dependencyDashboard": true,
-  "labels": [
-    "dependencies",
-    "renovate"
-  ],
+  "labels": ["dependencies", "renovate"],
   "automerge": true,
   "automergeType": "pr",
   "automergeStrategy": "rebase",
@@ -20,19 +17,15 @@
   "commitMessageAction": "bump",
   "commitMessageExtra": "from {{{currentValue}}} to {{#if isMajor}}{{{newMajor}}}{{else}}{{#if isSingleVersion}}{{{newVersion}}}{{else}}{{{newValue}}}{{/if}}{{/if}}",
   "commitBodyTable": true,
-  "postUpdateOptions": [ "npmDedupe" ],
+  "postUpdateOptions": ["npmDedupe"],
   "pre-commit": {
     "enabled": true
   },
   "customManagers": [
     {
       "customType": "regex",
-      "fileMatch": [
-        "^\\.github/workflows/[^/]+\\.ya?ml$"
-      ],
-      "matchStrings": [
-        "node-version:\\s*(?<currentValue>\\d+)"
-      ],
+      "managerFilePatterns": ["/^\\.github/workflows/[^/]+\\.ya?ml$/"],
+      "matchStrings": ["node-version:\\s*(?<currentValue>\\d+)"],
       "datasourceTemplate": "node-version",
       "depNameTemplate": "node"
     }
